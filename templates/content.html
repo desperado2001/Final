@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+
+{% extends "layout.html" %}
+{% block content %}
+<div class="content">
+<h1>Alviar-Raspberry Homepage</h1>
+<p>This lists the sensors deployed</p>
+<style>
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th {
+    background-color: black;
+    color: white;
+}
+</style>
+
+<table>
+<tr>
+	<th>Temperature</th>
+	<th>Pressure</th>
+	<th>Movement</th>
+	<th>Distance</th>
+	<th>Hostname</th>
+</tr>
+<tr>
+	<td>35.4</td>
+	<td>3</td>
+	<td>12.12311</td>
+	<td>0.3</td>
+	<td>Raspberry 1</td>
+</tr>
+</table>
+</div>
+{% endblock %}
+
+</body>
+</html>
