@@ -21,7 +21,7 @@ Flask==0.12.2
 itsdangerous==0.24
 kiwisolver==1.0.1
 Mako==1.0.7
-numpy==1.14.1
+numpy==1.22.0
 pyparsing==2.2.0
 python-dateutil==2.6.1
 pytz==2018.3
