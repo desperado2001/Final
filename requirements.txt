@@ -20,7 +20,7 @@ cycler==0.10.0
 Flask==0.12.2
 itsdangerous==0.24
 kiwisolver==1.0.1
-Mako==1.0.7
+Mako==1.2.2
 numpy==1.14.1
 pyparsing==2.2.0
 python-dateutil==2.6.1
